@@ -26,3 +26,5 @@ Never open attachments or click links on your host. Analyse text only; use defan
 
 ## Results
 See `SUMMARY.md`.
+
+Raw samples are not included. They come from phishing_pot (github.com/rf-peixoto/phishing_pot).
