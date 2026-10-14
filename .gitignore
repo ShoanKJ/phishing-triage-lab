@@ -1,0 +1,5 @@
+raw_private/
+samples/*.eml
+analysis/*.json
+__pycache__/
+*.pycphish_triage_verdicts.xlsx

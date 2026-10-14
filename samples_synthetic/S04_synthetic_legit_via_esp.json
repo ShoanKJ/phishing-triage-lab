@@ -1,0 +1,39 @@
+{
+  "file": "samples/S04_synthetic_legit_via_esp.eml",
+  "flags": [
+    "Return-Path domain (bounce.esp-mail.example) differs from From domain (shop.example)"
+  ],
+  "iocs": {
+    "ips": [
+      "192.0.2.99"
+    ],
+    "urls": [
+      "https://click.esp-mail.example/r/abc123"
+    ],
+    "domains": [
+      "bounce.esp-mail.example",
+      "click.esp-mail.example",
+      "shop.example"
+    ],
+    "hashes": []
+  },
+  "headers": {
+    "From": "Shop Example <news@shop.example>",
+    "To": "user@corp.example",
+    "Subject": "Confirm your subscription preferences",
+    "Date": "Tue, 29 Sep 2026 07:30:00 +0000",
+    "Message-ID": "<m9@esp-mail.example>",
+    "Return-Path": "<bounces+123@bounce.esp-mail.example>",
+    "Reply-To": ""
+  },
+  "received_chain": [
+    "from mta1.esp-mail.example (mta1.esp-mail.example [192.0.2.99]) by mx.corp.example with ESMTP; Tue, 29 Sep 2026 07:30:00 +0000"
+  ],
+  "auth": {
+    "spf": "pass",
+    "dkim": "pass",
+    "dmarc": "pass"
+  },
+  "attachments": [],
+  "risk_score": 1
+}

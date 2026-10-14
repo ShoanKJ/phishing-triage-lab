@@ -1,0 +1,13 @@
+Received: from mail.github-like.example (mail.github-like.example [192.0.2.55]) by mx.corp.example with ESMTP; Tue, 29 Sep 2026 08:00:00 +0000
+Authentication-Results: mx.corp.example; spf=pass smtp.mailfrom=notifications@github-like.example; dkim=pass header.d=github-like.example; dmarc=pass header.from=github-like.example
+Return-Path: <notifications@github-like.example>
+From: "GitHub-like Service" <notifications@github-like.example>
+To: user@corp.example
+Subject: New sign-in to your account
+Date: Tue, 29 Sep 2026 08:00:00 +0000
+Message-ID: <n1@github-like.example>
+MIME-Version: 1.0
+Content-Type: text/plain
+
+We noticed a new sign-in from Kerala, India. If this was you, no action is needed.
+Review activity: https://github-like.example/settings/security

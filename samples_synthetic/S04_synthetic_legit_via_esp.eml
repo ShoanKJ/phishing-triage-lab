@@ -1,0 +1,12 @@
+Received: from mta1.esp-mail.example (mta1.esp-mail.example [192.0.2.99]) by mx.corp.example with ESMTP; Tue, 29 Sep 2026 07:30:00 +0000
+Authentication-Results: mx.corp.example; spf=pass smtp.mailfrom=bounce.esp-mail.example; dkim=pass header.d=shop.example; dmarc=pass header.from=shop.example
+Return-Path: <bounces+123@bounce.esp-mail.example>
+From: "Shop Example" <news@shop.example>
+To: user@corp.example
+Subject: Confirm your subscription preferences
+Date: Tue, 29 Sep 2026 07:30:00 +0000
+Message-ID: <m9@esp-mail.example>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<html><body><p>Thanks for subscribing. <a href="https://click.esp-mail.example/r/abc123">Manage preferences</a></p></body></html>
